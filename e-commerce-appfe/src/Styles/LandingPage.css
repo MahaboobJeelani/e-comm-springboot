@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+.landingpage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid none;
+    border-radius: 2px;
+}
+.landingpage>a{
+    text-decoration: none;
+}
+.landingpage>a>img {
+    height: 120px;
+    width: 120px;
+}
+
+.landingpage>a>p {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 2px;
+
+}
+
+.merchantlogin, .userlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+}
+.merchantlogin>Form, .userlogin>Form {
+    padding: 50px 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.merchantlogin>Form>h1, .userlogin>Form>h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
